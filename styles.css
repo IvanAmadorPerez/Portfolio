@@ -220,3 +220,37 @@ footer {
 .photo-text strong {
   color: #3b82f6;
 }
+
+@media (max-width: 768px) {
+  header {
+    padding: 15px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  nav a {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+
+  #home h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .profile-container img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .projects-grid {
+    gap: 30px;
+  }
+}
